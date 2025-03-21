@@ -5,7 +5,7 @@ namespace App\Services\Posts\Internal;
 use App\Dto\Posts\Forms\CreateCommentForm;
 use App\Exceptions\Posts\CommentNotCreatedException;
 use App\Models\Comment;
-use App\Services\Contracts\BaseRepository;
+use App\Services\Common\BaseRepository;
 
 class CommentCrudService extends BaseRepository
 {

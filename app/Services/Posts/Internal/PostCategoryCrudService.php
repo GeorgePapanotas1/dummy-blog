@@ -9,7 +9,7 @@ use App\Exceptions\Posts\PostCategoryNotCreatedException;
 use App\Exceptions\Posts\PostCategoryNotDeletedException;
 use App\Exceptions\Posts\PostCategoryNotUpdatedException;
 use App\Models\PostCategory;
-use App\Services\Contracts\BaseRepository;
+use App\Services\Common\BaseRepository;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\ModelNotFoundException;

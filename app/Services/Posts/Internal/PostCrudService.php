@@ -10,7 +10,7 @@ use App\Exceptions\Posts\PostNotCreatedException;
 use App\Exceptions\Posts\PostNotDeletedException;
 use App\Exceptions\Posts\PostNotUpdatedException;
 use App\Models\Post;
-use App\Services\Contracts\BaseRepository;
+use App\Services\Common\BaseRepository;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 

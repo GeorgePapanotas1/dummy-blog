@@ -3,7 +3,7 @@
 namespace App\Services\Users\Internal;
 
 use App\Models\User;
-use App\Services\Contracts\BaseRepository;
+use App\Services\Common\BaseRepository;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
